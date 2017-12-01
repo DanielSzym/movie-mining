@@ -79,6 +79,20 @@ RandomForest(df)
 
 """
 --------------------------- GRID SEARCH BEST SCORE ---------------------------
-  Best score is 0.580698370927875 with params {'bootstrap': False, 'criterion': 'entropy', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}.
+Best score is 0.5824105943305237 with params {'bootstrap': False, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}.
+{'f1': 0.57256622981701921, 'no': 640, 'yes': 3273} //collection, actor, director, prod_comp, quarter dropped
+------------------------------------------------------------------------------
+"""
+
+"""
+--------------------------- GRID SEARCH ALL SCORES ---------------------------
+01.12.2017: Best score is 0.5628858470360576 with params {'bootstrap': True, 'criterion': 'entropy', 'max_depth': None, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}.
+            {'f1': 0.52541654006451621, 'no': 411, 'yes': 3502} //non dropped
+02.12.2017: Best score is 0.5496065013234092 with params {'bootstrap': True, 'criterion': 'entropy', 'max_depth': None, 'max_features': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}.
+            {'f1': 0.54776085832391819, 'no': 523, 'yes': 3390} with threshold, dropped collection
+02.12.2017: Best score is 0.5812527458428057 with params {'bootstrap': False, 'criterion': 'entropy', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}.            
+            {'f1': 0.56272840734489338, 'no': 589, 'yes': 3324} //collection, actor, director, prod_comp
+02.12.2017: Best score is 0.5824105943305237 with params {'bootstrap': False, 'criterion': 'gini', 'max_depth': None, 'max_features': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}.
+            {'f1': 0.57256622981701921, 'no': 640, 'yes': 3273} //collection, actor, director, prod_comp
 ------------------------------------------------------------------------------
 """
