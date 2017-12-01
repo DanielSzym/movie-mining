@@ -105,8 +105,8 @@ gs = c.featureselect_greedy(
                   "min_samples_split": [2],
                   "min_samples_leaf": [1],
                   "bootstrap": [False],
-                  "criterion": ["entropy"]}
+                  "criterion": ["gini"]}
     -------------
-    CURRENT: 0.5936501889483914, MAX: 0.5886381702831502, FEATURE: company_
-    DROPPED: ['actor_', 'quarter_']
+    CURRENT: 0.5929870756619212, MAX: 0.5860341040249972, FEATURE: runtime
+    DROPPED: ['country_', 'actor_', 'director_']
 """
